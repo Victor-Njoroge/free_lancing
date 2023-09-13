@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.Navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5rem;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+.Navbar .left{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.Navbar .left h2 span{
+    color: rgba(17, 201, 17, 0.844);
+}
+
+.Navbar .right {
+    display: flex;
+    margin: 1.5rem; 
+    flex-direction: row;
+    justify-content: space-around;
+    padding: auto;
+}
+.Navbar .right .business, .explore, .language, a, button{
+    padding-right: 1rem;
+    color: black;
+    text-decoration: none;
+}
+button{
+    margin-top: -5px;
+    padding:0 1px ;
+    width: 5rem;
+    margin-left: 10px;
+}
