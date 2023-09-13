@@ -1,0 +1,30 @@
+/* Flyer.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    overflow: hidden; 
+  }
+  
+  .image-slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .slider-image {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slider-image.active {
+    display: block;
+  }
+  
+  .slider-image img {
+    width:auto;
+    height: auto;
+    margin-left: -20rem;
+  }
+  

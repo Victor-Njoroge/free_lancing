@@ -1,0 +1,41 @@
+.search_Box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35rem;
+    margin-top: 1rem;
+    margin-left: 40rem;
+}
+.search_Box h2{
+    font-size: 3rem;
+}
+
+.search_Box .input{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.search_Box .input input{
+    width: 25rem;
+    height: 2.2rem;
+    border: 1px solid rgba(25, 199, 25, 0.762);
+    padding: 0 1px;
+}
+.search_Box .input button{
+    height: 2.2rem;
+    margin-top: 1px;
+    margin-left: -5rem;
+    background: rgba(25, 199, 25, 0.762);
+}
+
+.search_Box .popular{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.search_Box button{
+    height: 2.2rem;
+    
+}
