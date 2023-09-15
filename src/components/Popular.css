@@ -1,0 +1,37 @@
+.popular1{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.left1{
+    margin-top: 20rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    padding: 0 -1rem;
+    margin-left: 45rem;
+}
+.right1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    padding: 0 1rem;
+}
+
+.heading{
+    display: flex;
+    margin-top: -21rem;
+    margin-left: 10px;
+    color: white;
+    font-weight: lighter;
+}

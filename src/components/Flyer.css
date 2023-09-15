@@ -1,10 +1,10 @@
 /* Flyer.css */
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    overflow: hidden; 
+    flex-direction: row;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    
   }
   
   .image-slider {
@@ -23,8 +23,8 @@
   }
   
   .slider-image img {
-    width:auto;
-    height: auto;
-    margin-left: -20rem;
+   width: 100vh;
+   height: 70vh !important;
+   
   }
   
